@@ -1,0 +1,233 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+
+.groupResultInfoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.groupResultInfoBox form {
+    box-shadow: 0 2px 16.8px 3.2px #00264214;
+    background-color: white;
+    width: 403px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.groupResultInfoBox form .bros {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.groupResultInfoBox form .bros input {
+    width: 100%;
+    font-size: 16px;
+    background: #f7f7f7;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.groupResultInfoBox form select {
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    background: #f7f7f7;
+    border: none;
+    outline: none;
+
+}
+
+.groupResultInfoBox form button {
+    margin: 10px 0 0 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(255, 56, 56);
+    color: white;
+    border: none;
+    font-size: 18px;
+    transition: 0.4s;
+    cursor: pointer;
+    border: 1px solid rgba(255, 56, 56, 0);
+
+
+
+
+}
+
+.groupResultInfoBox form button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(255, 56, 56);
+    color: rgb(255, 56, 56);
+}
+
+
+.cover {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.results {
+    width: 1000px;
+    min-height: 400px;
+    box-shadow: 0 2px 16.8px 3.2px #00264214;
+    background-color: white;
+    padding: 18px;
+    position: relative;
+    border-radius: 8px;
+
+
+}
+
+.results h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.resultCardContainer {
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.rollError {
+    position: absolute;
+    color: red;
+    bottom: -22px;
+    font-size: 13px;
+    left: 0;
+    font-weight: 500;
+}
+
+.cross {
+    background: #ff6565;
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 13px;
+    right: 33px;
+    cursor: pointer;
+
+}
+
+
+
+@media screen and (max-width: 472px) {
+    .groupResultInfoBox form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cover {
+        top: 150px;
+    }
+
+    .cross {
+        right: 9px;
+    }
+
+    .results {
+        width: 90%;
+    }
+
+    .results>h1 {
+        text-align: left;
+        margin: 27px 0 0 0;
+    }
+
+    .resultCardContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 450px) {
+    .cover {
+        top: 150px;
+    }
+
+    .cross {
+        right: 9px;
+    }
+
+    .results {
+        width: 90%;
+    }
+
+    .results>h1 {
+        text-align: left;
+        margin: 27px 0 0 0;
+    }
+
+    .resultCardContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 650px) {
+    .cover {
+        top: 98px;
+    }
+
+    .results h1 {
+        text-align: left;
+    }
+
+    .results {
+        width: 90%;
+    }
+
+    .resultCardContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 865px) {
+
+    .results {
+        width: 600px;
+    }
+
+    .resultCardContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 865px) and (max-width: 1055px) {
+    .results {
+        width: 800px;
+    }
+
+    .resultCardContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1921px) {}

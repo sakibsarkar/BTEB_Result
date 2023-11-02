@@ -1,0 +1,125 @@
+{
+    "result": [
+        {
+            "_id": "6534fdd2a77ce866244c0778",
+            "technology": "diploma in engineering",
+            "results": {
+                "passed": "654139 (  2.92 )",
+                "rollP": "654139",
+                "gpa": "2.92",
+                "GPA": null,
+                "CGPA": null,
+                "CGPAp": null,
+                "failed": null,
+                "rollF": null,
+                "subjects": null
+            },
+            "semester": "3rd",
+            "regulation": "2022",
+            "Date": "19-10-2023",
+            "roll": "654139",
+            "institute": "Shyamoli Ideal Polytechnic Institute,Dhaka"
+        },
+        {
+            "_id": "6534fdd2a77ce866244c0779",
+            "technology": "diploma in engineering",
+            "results": {
+                "passed": "654140 (  2.57 )",
+                "rollP": "654140",
+                "gpa": "2.57",
+                "GPA": null,
+                "CGPA": null,
+                "CGPAp": null,
+                "failed": null,
+                "rollF": null,
+                "subjects": null
+            },
+            "semester": "3rd",
+            "regulation": "2022",
+            "Date": "19-10-2023",
+            "roll": "654140",
+            "institute": "Shyamoli Ideal Polytechnic Institute,Dhaka"
+        },
+        {
+            "_id": "6534fdd2a77ce866244c07ef",
+            "technology": "diploma in engineering",
+            "results": {
+                "passed": null,
+                "rollP": null,
+                "gpa": null,
+                "GPA": null,
+                "CGPA": null,
+                "CGPAp": null,
+                "failed": "654141 {  25912(T), 25931(T), 26711(T) }",
+                "rollF": "654141",
+                "subjects": "{  25912(T), 25931(T), 26711(T) }"
+            },
+            "semester": "3rd",
+            "regulation": "2022",
+            "Date": "19-10-2023",
+            "roll": "654141",
+            "institute": "Shyamoli Ideal Polytechnic Institute,Dhaka"
+        },
+        {
+            "_id": "6534fdd2a77ce866244c07f0",
+            "technology": "diploma in engineering",
+            "results": {
+                "passed": null,
+                "rollP": null,
+                "gpa": null,
+                "GPA": null,
+                "CGPA": null,
+                "CGPAp": null,
+                "failed": "654142 {  25931(T) }",
+                "rollF": "654142",
+                "subjects": "{  25931(T) }"
+            },
+            "semester": "3rd",
+            "regulation": "2022",
+            "Date": "19-10-2023",
+            "roll": "654142",
+            "institute": "Shyamoli Ideal Polytechnic Institute,Dhaka"
+        },
+        {
+            "_id": "6534fdd2a77ce866244c077a",
+            "technology": "diploma in engineering",
+            "results": {
+                "passed": "654143 (  2.87 )",
+                "rollP": "654143",
+                "gpa": "2.87",
+                "GPA": null,
+                "CGPA": null,
+                "CGPAp": null,
+                "failed": null,
+                "rollF": null,
+                "subjects": null
+            },
+            "semester": "3rd",
+            "regulation": "2022",
+            "Date": "19-10-2023",
+            "roll": "654143",
+            "institute": "Shyamoli Ideal Polytechnic Institute,Dhaka"
+        },
+        {
+            "_id": "6534fdd2a77ce866244c07f1",
+            "technology": "diploma in engineering",
+            "results": {
+                "passed": null,
+                "rollP": null,
+                "gpa": null,
+                "GPA": null,
+                "CGPA": null,
+                "CGPAp": null,
+                "failed": "654144 {  25912(T), 26133(T),26134(T) }",
+                "rollF": "654144",
+                "subjects": "{  25912(T), 26133(T), 26134(T) }"
+            },
+            "semester": "3rd",
+            "regulation": "2022",
+            "Date": "19-10-2023",
+            "roll": "654144",
+            "institute": "Shyamoli Ideal Polytechnic Institute,Dhaka"
+        }
+    ],
+    "total": 6
+}

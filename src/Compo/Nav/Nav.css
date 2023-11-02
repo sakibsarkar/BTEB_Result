@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(255, 70, 70);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li .navLinks {
+    font-size: 18px;
+    color: white;
+}
+
+
+nav ul li .active {
+    position: relative;
+}
+
+nav ul li .active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    
+}
+
+@media screen and (min-width: 450px) and (max-width: 650px) {
+    nav {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1921px) {}

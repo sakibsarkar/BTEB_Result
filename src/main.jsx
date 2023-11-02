@@ -1,4 +1,6 @@
 import "./index.css";
+import GroupResult from "./Compo/GroupResult/GroupResult";
+import Layout from "./Compo/Layout";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
@@ -6,7 +8,13 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 const routes = createBrowserRouter([
   {
     path: '/',
-    element: <div>home</div>
+    element: <Layout></Layout>,
+    children: [
+      {
+        path: "/groupResult",
+        element: <GroupResult></GroupResult>,
+      }
+    ]
   }
 ])
 
